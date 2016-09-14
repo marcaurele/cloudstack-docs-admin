@@ -780,9 +780,8 @@ following conditions:
    VM will remain in the "migrating" state until memory becomes
    available.
 
--  (KVM) The VM must not be using local disk storage. (On XenServer and
-   VMware, VM live migration with local disk is enabled by CloudStack
-   support for XenMotion and vMotion.)
+-  On XenServer and VMware, VM live migration with local disk is enabled by
+   CloudStack support for XenMotion and vMotion.
 
 -  (KVM) The destination host must be in the same cluster as the
    original host. (On XenServer and VMware, VM live migration from one
